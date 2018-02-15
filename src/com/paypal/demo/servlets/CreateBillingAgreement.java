@@ -17,8 +17,6 @@ import javax.servlet.http.HttpSession;
 import org.json.JSONObject;
 
 import com.paypal.demo.dto.ApplicationConfiguration;
-import com.paypal.demo.dto.TransactionAmountDto;
-import com.paypal.demo.dto.TransactionDetailsDto;
 import com.paypal.demo.helpers.RestClient;
 
 /**

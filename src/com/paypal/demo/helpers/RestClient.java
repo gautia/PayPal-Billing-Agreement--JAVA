@@ -10,8 +10,6 @@ import java.util.concurrent.TimeUnit;
 import org.apache.commons.codec.binary.Base64;
 import org.json.JSONObject;
 
-import com.paypal.demo.dto.CreatePaymentDto;
-
 import okhttp3.ConnectionSpec;
 import okhttp3.Headers;
 import okhttp3.MediaType;

@@ -1,9 +1,7 @@
 package com.paypal.demo.servlets;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
@@ -19,8 +17,6 @@ import javax.servlet.http.HttpSession;
 import org.json.JSONObject;
 
 import com.paypal.demo.dto.ApplicationConfiguration;
-import com.paypal.demo.dto.CreatePaymentDto;
-import com.paypal.demo.helpers.Helper;
 import com.paypal.demo.helpers.RestClient;
 
 /**
